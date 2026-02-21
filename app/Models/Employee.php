@@ -3,7 +3,7 @@
 namespace App\Models;
 
 class Employee{
-    public static function all() {
+    public static function save() {
         $db = new \mysqli("localhost","root","","classicmodels");
 
         $res = $db->query("SELECT * FROM `employees`;");
