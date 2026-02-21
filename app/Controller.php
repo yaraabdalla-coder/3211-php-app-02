@@ -4,8 +4,8 @@ namespace App;
 class Controller
 {
 
-     public static function greeting()
+     public static function details()
     {
-        echo "greeting";
+        echo "details";
     }
 }
